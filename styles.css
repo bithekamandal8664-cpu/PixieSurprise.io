@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  min-height: 90vh;
+  background-image: url("MaiMai.jpg");
+  font-family: Tahoma, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.part {
+    border-radius: 35px;
+    background-color: lightpink;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Tahoma";
+    width: 80%;
+    margin-inline: auto;
+}
+.greet {
+    border-radius: 30px;
+    background-color: lightpink;
+    padding: 20px;
+    font-size: 50px;
+    font-family: "Tahoma";
+    text-align: center;
+    font-style: bold;
+    width: 80%;
+    margin-inline: auto;
+}
+.buttons{
+    background-color: lightpink;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+    button {
+        border-radius: 25px;
+        align-content: center;
+        padding: 20px;
+        border: none;
+        background: #f0faff;
+        font-size: 25px;
+    }
+    width: 80%;
+    margin-inline: auto;
+}
+.buttons button:active {
+    transform: scale(0.96);
+}
